@@ -1,6 +1,7 @@
 import Header from '../template/Header';
 import Home from '../pages/Home';
 import Character from '../pages/Character';
+import About from '../pages/About';
 import Error404 from '../pages/Error404';
 
 import getHash from '../utils/getHash';
@@ -9,6 +10,7 @@ import resolveRoutes from '../utils/resolveRoutes';
 const routes = {
     '/': Home,
     '/:id': Character,
+    '/about': About,
     '/contact': 'Contact',
 }
 
